@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "app.py",
+        "use": "@vercel/python"
+      }
+    ],
+    "env": {
+      "SENDER_EMAIL": "@sender-email",
+      "SENDER_PASSWORD": "@sender-password",
+      "SMTP_SERVER": "@smtp-server",
+      "SMTP_PORT": "@smtp-port"
+    }
+  }
+  
