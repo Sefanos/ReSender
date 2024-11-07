@@ -1,0 +1,41 @@
+# Python specific
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+# Environment files
+.env
+*.env
+
+# Flask specific
+instance/
+*.db
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+
+# MacOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+
+# Log files
+*.log
+
+# Dependency directories
+venv/
+.env/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Other
+*.bak
+*.tmp
+AmineResu.pdf
+ListEntreprises.txt
